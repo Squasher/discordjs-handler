@@ -1,0 +1,32 @@
+{
+  "name": "mybot",
+  "version": "0.0.1",
+  "description": "Discord.js Handlers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "YousefHusain",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squasher/discordjs-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Squasher/discordjs-handler/issues"
+  },
+  "homepage": "https://github.com/Squasher/discordjs-handler#readme"
+}
