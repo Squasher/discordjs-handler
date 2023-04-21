@@ -13,6 +13,7 @@ module.exports = {
 			IntentsBitField.Flags.Guilds,
 			IntentsBitField.Flags.GuildMessages,
 			IntentsBitField.Flags.GuildMembers,
+			IntentsBitField.Flags.GuildPresences,
 			IntentsBitField.Flags.GuildVoiceStates,
 			IntentsBitField.Flags.MessageContent
 		],
