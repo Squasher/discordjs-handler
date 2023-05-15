@@ -1,5 +1,5 @@
 {
-  "name": "mybot",
+  "name": "discord-bot",
   "version": "0.0.1",
   "description": "Discord.js Handlers",
   "main": "index.js",

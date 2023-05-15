@@ -1,9 +1,8 @@
 const { EmbedBuilder } = require("discord.js");
-const { default_embed_color } = require("./constants");
 
 module.exports = function helpEmbed (command, message) {
   const embed = new EmbedBuilder()
-  .setColor(default_embed_color);
+  .setColor(message.client.config.embedColor);
 
   command.name && embed.setTitle(`Command ${command.name}`);
   command.description && embed.setDescription(command.description);
